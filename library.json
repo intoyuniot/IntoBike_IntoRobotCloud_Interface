@@ -1,0 +1,32 @@
+{
+    "name": "IntoBike_IntoRobotCloud_Interface",
+    "version": "1.0.0",
+    "keywords": "cloud",
+    "description": "Cloud communication operations of IntoBike",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intoyuniot/IntoBike_IntoRobotCloud_Interface.git"
+    },
+
+    "authors": {
+        "name": "robin",
+        "email": "robin@molmc.com"
+    },
+    "dependencies":
+    [
+        {
+            "name": "IntoBike_StepMotor_Control",
+            "frameworks": "arduino"
+        },
+        {
+            "name": "WidgetJoypad",
+            "frameworks": "arduino"
+        },
+        {
+            "name": "IntoBike_Balance_Control",
+            "frameworks": "arduino"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
